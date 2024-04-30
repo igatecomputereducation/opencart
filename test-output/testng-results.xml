@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-27T15:33:12 IST" name="Suite" finished-at="2024-04-27T15:33:18 IST" duration-ms="6045">
+    <groups>
+      <group name="regression">
+        <method signature="TC_02_Login.login()[pri:1, instance:testcases.TC_02_Login@78e4deb0]" name="login" class="testcases.TC_02_Login"/>
+        <method signature="TC_02_Login.login_data_entry()[pri:2, instance:testcases.TC_02_Login@78e4deb0]" name="login_data_entry" class="testcases.TC_02_Login"/>
+        <method signature="TC_02_Login.loggingout()[pri:3, instance:testcases.TC_02_Login@78e4deb0]" name="loggingout" class="testcases.TC_02_Login"/>
+        <method signature="TC_02_Login.logoutToHome()[pri:4, instance:testcases.TC_02_Login@78e4deb0]" name="logoutToHome" class="testcases.TC_02_Login"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2024-04-27T15:33:12 IST" name="Test" finished-at="2024-04-27T15:33:18 IST" duration-ms="6045">
+      <class name="testcases.TC_02_Login">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.TC_02_Login@78e4deb0]" started-at="2024-04-27T15:33:12 IST" name="setUp" finished-at="2024-04-27T15:33:15 IST" duration-ms="3200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:1, instance:testcases.TC_02_Login@78e4deb0]" started-at="2024-04-27T15:33:15 IST" name="login" finished-at="2024-04-27T15:33:16 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login_data_entry()[pri:2, instance:testcases.TC_02_Login@78e4deb0]" started-at="2024-04-27T15:33:16 IST" name="login_data_entry" finished-at="2024-04-27T15:33:17 IST" depends-on-methods="testcases.TC_02_Login.login" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_data_entry -->
+        <test-method signature="loggingout()[pri:3, instance:testcases.TC_02_Login@78e4deb0]" started-at="2024-04-27T15:33:17 IST" name="loggingout" finished-at="2024-04-27T15:33:18 IST" depends-on-methods="testcases.TC_02_Login.login_data_entry" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggingout -->
+        <test-method signature="logoutToHome()[pri:4, instance:testcases.TC_02_Login@78e4deb0]" started-at="2024-04-27T15:33:18 IST" name="logoutToHome" finished-at="2024-04-27T15:33:18 IST" depends-on-methods="testcases.TC_02_Login.loggingout" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutToHome -->
+      </class> <!-- testcases.TC_02_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
